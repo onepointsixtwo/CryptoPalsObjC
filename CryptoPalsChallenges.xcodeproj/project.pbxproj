@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA578FCE1D5335D2001C9F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FCD1D5335D2001C9F10 /* main.m */; };
+		EA578FD61D533604001C9F10 /* EntryPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FD51D533604001C9F10 /* EntryPoint.m */; };
+		EA578FDD1D53368D001C9F10 /* NSData+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FDC1D53368D001C9F10 /* NSData+Encoding.m */; };
+		EA578FE11D534546001C9F10 /* NSString+PlainText.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FE01D534546001C9F10 /* NSString+PlainText.m */; };
+		EA578FEA1D537569001C9F10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA578FE91D537569001C9F10 /* SystemConfiguration.framework */; };
+		EA578FEF1D5396D1001C9F10 /* SetOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FEE1D5396D1001C9F10 /* SetOne.m */; };
+		EA578FF21D53972F001C9F10 /* SetTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FF11D53972F001C9F10 /* SetTwo.m */; };
+		EA578FF61D539774001C9F10 /* BaseRunnable.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FF51D539774001C9F10 /* BaseRunnable.m */; };
+		EA578FFB1D54ABF0001C9F10 /* NSObject+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = EA578FFA1D54ABF0001C9F10 /* NSObject+Random.m */; };
+		EA926FA61D5A0B3200A8B70A /* OrderedKeysMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FA51D5A0B3200A8B70A /* OrderedKeysMutableDictionary.m */; };
+		EA926FAF1D5C6EB000A8B70A /* SetThreeRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FAE1D5C6EB000A8B70A /* SetThreeRunner.m */; };
+		EA926FB41D5C6ED000A8B70A /* SetFourRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FB31D5C6ED000A8B70A /* SetFourRunner.m */; };
+		EA926FB71D5C71E500A8B70A /* ChallengeSeventeen.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FB61D5C71E500A8B70A /* ChallengeSeventeen.m */; };
+		EA926FBA1D5C728A00A8B70A /* NSData+XOR.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FB91D5C728A00A8B70A /* NSData+XOR.m */; };
+		EA926FBD1D5C8F2900A8B70A /* NSData+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FBC1D5C8F2900A8B70A /* NSData+Blocks.m */; };
+		EA926FC01D5C8F3700A8B70A /* NSData+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FBF1D5C8F3700A8B70A /* NSData+Helpers.m */; };
+		EA926FC31D5C8F4000A8B70A /* NSData+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FC21D5C8F4000A8B70A /* NSData+Padding.m */; };
+		EA926FC61D5C8F5700A8B70A /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = EA926FC51D5C8F5700A8B70A /* NSData+AES128.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA578FC81D5335D2001C9F10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA578FCA1D5335D2001C9F10 /* CryptoPalsChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CryptoPalsChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA578FCD1D5335D2001C9F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA578FD41D533604001C9F10 /* EntryPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryPoint.h; sourceTree = "<group>"; };
+		EA578FD51D533604001C9F10 /* EntryPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryPoint.m; sourceTree = "<group>"; };
+		EA578FDB1D53368D001C9F10 /* NSData+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encoding.h"; sourceTree = "<group>"; };
+		EA578FDC1D53368D001C9F10 /* NSData+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encoding.m"; sourceTree = "<group>"; };
+		EA578FDE1D533734001C9F10 /* Base64Encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64Encoding.h; sourceTree = "<group>"; };
+		EA578FDF1D534546001C9F10 /* NSString+PlainText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PlainText.h"; sourceTree = "<group>"; };
+		EA578FE01D534546001C9F10 /* NSString+PlainText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PlainText.m"; sourceTree = "<group>"; };
+		EA578FE31D53569E001C9F10 /* set1challenge4xor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = set1challenge4xor.txt; sourceTree = "<group>"; };
+		EA578FE41D535C9D001C9F10 /* set1challenge6decryption.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = set1challenge6decryption.txt; sourceTree = "<group>"; };
+		EA578FE81D5374B8001C9F10 /* s1c7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = s1c7.txt; sourceTree = "<group>"; };
+		EA578FE91D537569001C9F10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA578FEB1D538308001C9F10 /* s1c8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = s1c8; sourceTree = "<group>"; };
+		EA578FED1D5396D1001C9F10 /* SetOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOne.h; sourceTree = "<group>"; };
+		EA578FEE1D5396D1001C9F10 /* SetOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetOne.m; sourceTree = "<group>"; };
+		EA578FF01D53972F001C9F10 /* SetTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTwo.h; sourceTree = "<group>"; };
+		EA578FF11D53972F001C9F10 /* SetTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTwo.m; sourceTree = "<group>"; };
+		EA578FF41D539774001C9F10 /* BaseRunnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRunnable.h; sourceTree = "<group>"; };
+		EA578FF51D539774001C9F10 /* BaseRunnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRunnable.m; sourceTree = "<group>"; };
+		EA578FF81D54A2F6001C9F10 /* s2c10 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = s2c10; sourceTree = "<group>"; };
+		EA578FF91D54ABF0001C9F10 /* NSObject+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Random.h"; sourceTree = "<group>"; };
+		EA578FFA1D54ABF0001C9F10 /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
+		EA926FA41D5A0B3200A8B70A /* OrderedKeysMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedKeysMutableDictionary.h; sourceTree = "<group>"; };
+		EA926FA51D5A0B3200A8B70A /* OrderedKeysMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedKeysMutableDictionary.m; sourceTree = "<group>"; };
+		EA926FAD1D5C6EB000A8B70A /* SetThreeRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetThreeRunner.h; sourceTree = "<group>"; };
+		EA926FAE1D5C6EB000A8B70A /* SetThreeRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetThreeRunner.m; sourceTree = "<group>"; };
+		EA926FB21D5C6ED000A8B70A /* SetFourRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetFourRunner.h; sourceTree = "<group>"; };
+		EA926FB31D5C6ED000A8B70A /* SetFourRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetFourRunner.m; sourceTree = "<group>"; };
+		EA926FB51D5C71E500A8B70A /* ChallengeSeventeen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeSeventeen.h; sourceTree = "<group>"; };
+		EA926FB61D5C71E500A8B70A /* ChallengeSeventeen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeSeventeen.m; sourceTree = "<group>"; };
+		EA926FB81D5C728A00A8B70A /* NSData+XOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XOR.h"; sourceTree = "<group>"; };
+		EA926FB91D5C728A00A8B70A /* NSData+XOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XOR.m"; sourceTree = "<group>"; };
+		EA926FBB1D5C8F2900A8B70A /* NSData+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Blocks.h"; sourceTree = "<group>"; };
+		EA926FBC1D5C8F2900A8B70A /* NSData+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Blocks.m"; sourceTree = "<group>"; };
+		EA926FBE1D5C8F3700A8B70A /* NSData+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Helpers.h"; sourceTree = "<group>"; };
+		EA926FBF1D5C8F3700A8B70A /* NSData+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Helpers.m"; sourceTree = "<group>"; };
+		EA926FC11D5C8F4000A8B70A /* NSData+Padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Padding.h"; sourceTree = "<group>"; };
+		EA926FC21D5C8F4000A8B70A /* NSData+Padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Padding.m"; sourceTree = "<group>"; };
+		EA926FC41D5C8F5700A8B70A /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		EA926FC51D5C8F5700A8B70A /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
+		EA926FC91D5CA77000A8B70A /* c17 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c17; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA578FC71D5335D2001C9F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA578FEA1D537569001C9F10 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA578FC11D5335D2001C9F10 = {
+			isa = PBXGroup;
+			children = (
+				EA578FE71D5373F7001C9F10 /* Libs */,
+				EA578FCC1D5335D2001C9F10 /* CryptoPalsChallenges */,
+				EA578FCB1D5335D2001C9F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA578FCB1D5335D2001C9F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FCA1D5335D2001C9F10 /* CryptoPalsChallenges */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA578FCC1D5335D2001C9F10 /* CryptoPalsChallenges */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FEC1D5396BF001C9F10 /* Sets */,
+				EA578FE21D535660001C9F10 /* Resources */,
+				EA578FD71D53365C001C9F10 /* Helpers */,
+				EA578FCD1D5335D2001C9F10 /* main.m */,
+				EA578FD41D533604001C9F10 /* EntryPoint.h */,
+				EA578FD51D533604001C9F10 /* EntryPoint.m */,
+				EA578FF41D539774001C9F10 /* BaseRunnable.h */,
+				EA578FF51D539774001C9F10 /* BaseRunnable.m */,
+			);
+			path = CryptoPalsChallenges;
+			sourceTree = "<group>";
+		};
+		EA578FD71D53365C001C9F10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FC71D5C911400A8B70A /* Classes */,
+				EA578FDF1D534546001C9F10 /* NSString+PlainText.h */,
+				EA578FE01D534546001C9F10 /* NSString+PlainText.m */,
+				EA578FDB1D53368D001C9F10 /* NSData+Encoding.h */,
+				EA578FDC1D53368D001C9F10 /* NSData+Encoding.m */,
+				EA578FDE1D533734001C9F10 /* Base64Encoding.h */,
+				EA578FF91D54ABF0001C9F10 /* NSObject+Random.h */,
+				EA578FFA1D54ABF0001C9F10 /* NSObject+Random.m */,
+				EA926FB81D5C728A00A8B70A /* NSData+XOR.h */,
+				EA926FB91D5C728A00A8B70A /* NSData+XOR.m */,
+				EA926FBB1D5C8F2900A8B70A /* NSData+Blocks.h */,
+				EA926FBC1D5C8F2900A8B70A /* NSData+Blocks.m */,
+				EA926FBE1D5C8F3700A8B70A /* NSData+Helpers.h */,
+				EA926FBF1D5C8F3700A8B70A /* NSData+Helpers.m */,
+				EA926FC11D5C8F4000A8B70A /* NSData+Padding.h */,
+				EA926FC21D5C8F4000A8B70A /* NSData+Padding.m */,
+				EA926FC41D5C8F5700A8B70A /* NSData+AES128.h */,
+				EA926FC51D5C8F5700A8B70A /* NSData+AES128.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EA578FE21D535660001C9F10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FC81D5CA75C00A8B70A /* Set Three */,
+				EA578FF71D54A2DF001C9F10 /* Set Two */,
+				EA578FF31D539737001C9F10 /* Set One */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA578FE71D5373F7001C9F10 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FE91D537569001C9F10 /* SystemConfiguration.framework */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		EA578FEC1D5396BF001C9F10 /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FA71D5C6E3800A8B70A /* Set One */,
+				EA926FA81D5C6E4200A8B70A /* Set Two */,
+				EA926FA91D5C6E4B00A8B70A /* Set Three */,
+				EA926FAA1D5C6E6C00A8B70A /* Set Four */,
+			);
+			name = Sets;
+			sourceTree = "<group>";
+		};
+		EA578FF31D539737001C9F10 /* Set One */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FE31D53569E001C9F10 /* set1challenge4xor.txt */,
+				EA578FE41D535C9D001C9F10 /* set1challenge6decryption.txt */,
+				EA578FE81D5374B8001C9F10 /* s1c7.txt */,
+				EA578FEB1D538308001C9F10 /* s1c8 */,
+			);
+			name = "Set One";
+			sourceTree = "<group>";
+		};
+		EA578FF71D54A2DF001C9F10 /* Set Two */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FF81D54A2F6001C9F10 /* s2c10 */,
+			);
+			name = "Set Two";
+			sourceTree = "<group>";
+		};
+		EA926FA71D5C6E3800A8B70A /* Set One */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FED1D5396D1001C9F10 /* SetOne.h */,
+				EA578FEE1D5396D1001C9F10 /* SetOne.m */,
+			);
+			name = "Set One";
+			sourceTree = "<group>";
+		};
+		EA926FA81D5C6E4200A8B70A /* Set Two */ = {
+			isa = PBXGroup;
+			children = (
+				EA578FF01D53972F001C9F10 /* SetTwo.h */,
+				EA578FF11D53972F001C9F10 /* SetTwo.m */,
+			);
+			name = "Set Two";
+			sourceTree = "<group>";
+		};
+		EA926FA91D5C6E4B00A8B70A /* Set Three */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FAC1D5C6E9A00A8B70A /* Challenges */,
+				EA926FAB1D5C6E9500A8B70A /* Runner */,
+			);
+			name = "Set Three";
+			sourceTree = "<group>";
+		};
+		EA926FAA1D5C6E6C00A8B70A /* Set Four */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FB01D5C6EBD00A8B70A /* Challenges */,
+				EA926FB11D5C6EC200A8B70A /* Runner */,
+			);
+			name = "Set Four";
+			sourceTree = "<group>";
+		};
+		EA926FAB1D5C6E9500A8B70A /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FAD1D5C6EB000A8B70A /* SetThreeRunner.h */,
+				EA926FAE1D5C6EB000A8B70A /* SetThreeRunner.m */,
+			);
+			name = Runner;
+			sourceTree = "<group>";
+		};
+		EA926FAC1D5C6E9A00A8B70A /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FB51D5C71E500A8B70A /* ChallengeSeventeen.h */,
+				EA926FB61D5C71E500A8B70A /* ChallengeSeventeen.m */,
+			);
+			name = Challenges;
+			sourceTree = "<group>";
+		};
+		EA926FB01D5C6EBD00A8B70A /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Challenges;
+			sourceTree = "<group>";
+		};
+		EA926FB11D5C6EC200A8B70A /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FB21D5C6ED000A8B70A /* SetFourRunner.h */,
+				EA926FB31D5C6ED000A8B70A /* SetFourRunner.m */,
+			);
+			name = Runner;
+			sourceTree = "<group>";
+		};
+		EA926FC71D5C911400A8B70A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FA41D5A0B3200A8B70A /* OrderedKeysMutableDictionary.h */,
+				EA926FA51D5A0B3200A8B70A /* OrderedKeysMutableDictionary.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EA926FC81D5CA75C00A8B70A /* Set Three */ = {
+			isa = PBXGroup;
+			children = (
+				EA926FC91D5CA77000A8B70A /* c17 */,
+			);
+			name = "Set Three";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA578FC91D5335D2001C9F10 /* CryptoPalsChallenges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA578FD11D5335D2001C9F10 /* Build configuration list for PBXNativeTarget "CryptoPalsChallenges" */;
+			buildPhases = (
+				EA578FC61D5335D2001C9F10 /* Sources */,
+				EA578FC71D5335D2001C9F10 /* Frameworks */,
+				EA578FC81D5335D2001C9F10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoPalsChallenges;
+			productName = CryptoPalsChallenges;
+			productReference = EA578FCA1D5335D2001C9F10 /* CryptoPalsChallenges */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA578FC21D5335D2001C9F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Kartupelis";
+				TargetAttributes = {
+					EA578FC91D5335D2001C9F10 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EA578FC51D5335D2001C9F10 /* Build configuration list for PBXProject "CryptoPalsChallenges" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA578FC11D5335D2001C9F10;
+			productRefGroup = EA578FCB1D5335D2001C9F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA578FC91D5335D2001C9F10 /* CryptoPalsChallenges */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA578FC61D5335D2001C9F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA926FB41D5C6ED000A8B70A /* SetFourRunner.m in Sources */,
+				EA578FFB1D54ABF0001C9F10 /* NSObject+Random.m in Sources */,
+				EA926FA61D5A0B3200A8B70A /* OrderedKeysMutableDictionary.m in Sources */,
+				EA926FB71D5C71E500A8B70A /* ChallengeSeventeen.m in Sources */,
+				EA578FDD1D53368D001C9F10 /* NSData+Encoding.m in Sources */,
+				EA926FAF1D5C6EB000A8B70A /* SetThreeRunner.m in Sources */,
+				EA926FC61D5C8F5700A8B70A /* NSData+AES128.m in Sources */,
+				EA578FF21D53972F001C9F10 /* SetTwo.m in Sources */,
+				EA926FC01D5C8F3700A8B70A /* NSData+Helpers.m in Sources */,
+				EA926FC31D5C8F4000A8B70A /* NSData+Padding.m in Sources */,
+				EA578FCE1D5335D2001C9F10 /* main.m in Sources */,
+				EA578FD61D533604001C9F10 /* EntryPoint.m in Sources */,
+				EA926FBA1D5C728A00A8B70A /* NSData+XOR.m in Sources */,
+				EA926FBD1D5C8F2900A8B70A /* NSData+Blocks.m in Sources */,
+				EA578FE11D534546001C9F10 /* NSString+PlainText.m in Sources */,
+				EA578FF61D539774001C9F10 /* BaseRunnable.m in Sources */,
+				EA578FEF1D5396D1001C9F10 /* SetOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA578FCF1D5335D2001C9F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA578FD01D5335D2001C9F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA578FD21D5335D2001C9F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA578FD31D5335D2001C9F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA578FC51D5335D2001C9F10 /* Build configuration list for PBXProject "CryptoPalsChallenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA578FCF1D5335D2001C9F10 /* Debug */,
+				EA578FD01D5335D2001C9F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA578FD11D5335D2001C9F10 /* Build configuration list for PBXNativeTarget "CryptoPalsChallenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA578FD21D5335D2001C9F10 /* Debug */,
+				EA578FD31D5335D2001C9F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA578FC21D5335D2001C9F10 /* Project object */;
+}
